@@ -52,8 +52,12 @@ else{
     console.log("false");
 }
 // variaveis programas 6
-let chess = "PeãO"
+let chess = "PeãO";
 let result = chess.toLowerCase();
+let percentage = 88;
+let num1 = 9;
+let num2 = 1;
+let num3 = 2;
 // 6
 console.log("Item 6");
 if(result === "peao" || result === "peão"){
@@ -76,5 +80,36 @@ else if(result === "rei"){
 }
 else{
     console.log("Error");
+}
+// 7
+console.log("Item 7");
+if(percentage>=90 && percentage<=100){
+    console.log("A");
+}
+else if (percentage>=80 && percentage<90){
+    console.log("B");
+}
+else if(percentage>=70 && percentage<80){
+    console.log("C");
+}
+else if(percentage>=60 && percentage<70){
+    console.log("D");
+}
+else if(percentage>=50 && percentage<60){
+    console.log("E");
+}
+else if(percentage>=0 && percentage<50){
+    console.log("F");
+}
+else{
+    console.log("Erro");
+}
+// 8
+console.log("Item 8");
+if(num1%2===0 || num2%2===0 || num3%2===0){
+    console.log("True");
+}
+else{
+    console.log("False");
 }
 
