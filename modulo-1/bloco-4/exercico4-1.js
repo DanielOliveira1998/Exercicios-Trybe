@@ -104,12 +104,14 @@ else if(percentage>=0 && percentage<50){
 else{
     console.log("Erro");
 }
-// 8
-console.log("Item 8");
+// 8 e 9
+console.log("Item 8 e 9");
 if(num1%2===0 || num2%2===0 || num3%2===0){
     console.log("True");
 }
 else{
     console.log("False");
 }
+// 10
+console.log("Item 10");
 
